@@ -1,27 +1,30 @@
-/**
- * Unit 1 Project
- * 
- * In this project you have the opportunity to create a piece of artwork using ASCII 
- * (American Standard Code for Information Interchange). Using the already created file 
- * named `ASCIIArt.java` write a program that outputs your artwork to the console. 
- * The goal of this project is to use ONLY what we have learned in Unit 1 to create 
- * anything you would like so be creative (and school appropriate). Artwork must also have a caption describing what it's depicting.  
- * 
- * For those of you who have dabbled in coding before, try to contain your code to 
- * just what we have discussed in this unit.  
- * 
- * @author Mr. Rasmussen 
- *
- */
-
-// YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void line1() {
+		System.out.print("________________");
+	}
+	public static void line2() {
+		System.out.print("ASCII ASCII ");
+	}
+	public static void line3() {
+		line2();
+		line2();
+		line2();
+	}
+	public static void line4() {
+		line1();
+		line1();
+		line1();
+	}
+	public static void main(String[] args) {
+		line3();
+		System.out.println("");
+		System.out.println(",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,");
+		System.out.println(",,,,JJJ,,,,,A,,,,,V,,,,,,,V,,,,,A,,,,,,,,,,");
+		System.out.println(",,,,,J,,,,,A,A,,,,,V,,,,,V,,,,,A,A,,,,,,,,,");
+		System.out.println(",,,,,J,,,,AAAAA,,,,,V,,,V,,,,,AAAAA,,,,,,,,");
+		System.out.println(",J,,,J,,,A,,,,,A,,,,,V,v,,,,,A,,,,,A,,,,,,,");
+		System.out.println(",,JJJ,,,A,,,,,,,A,,,,,V,,,,,A,,,,,,,A,,,,,,");
+		line4();
 	}
 }
